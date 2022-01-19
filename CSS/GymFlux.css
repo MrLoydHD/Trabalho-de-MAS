@@ -1,0 +1,11 @@
+﻿.jumbotron {
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    margin-bottom: 20px;
+    background: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('GymFlux Images/pexels-lukas-669578.jpg');
+}
