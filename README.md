@@ -1,2 +1,0 @@
-# Trabalho-de-MAS
-Trabalhinho!
