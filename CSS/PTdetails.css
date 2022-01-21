@@ -1,0 +1,20 @@
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 560px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 100px;
+  }
+
+.PT{
+    clip-path: circle();
+    height: 260px; 
+}
