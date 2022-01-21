@@ -9,7 +9,7 @@ body {
     border-left: 2px solid black;
     height: 560px;
     position: absolute;
-    left: 50%;
+    left: 40%;
     margin-left: -3px;
     top: 100px;
   }
@@ -18,3 +18,16 @@ body {
     clip-path: circle();
     height: 260px; 
 }
+
+.lol {
+    
+  }
+
+#text,
+      #icon {
+        line-height: 50px;
+      }
+      #icon {
+        vertical-align: middle;
+        font-size: 30px;
+      }
