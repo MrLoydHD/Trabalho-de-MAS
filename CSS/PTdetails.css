@@ -7,7 +7,7 @@ body {
 
 .vl {
     border-left: 2px solid black;
-    height: 560px;
+    height: 510px;
     position: absolute;
     left: 40%;
     margin-left: -3px;
@@ -19,15 +19,26 @@ body {
     height: 260px; 
 }
 
-.lol {
-    
-  }
+.contact-buton{
+    float: left; 
+}
 
-#text,
-      #icon {
-        line-height: 50px;
-      }
-      #icon {
-        vertical-align: middle;
-        font-size: 30px;
-      }
+.flag{
+    float: left; 
+    height: 2rem; 
+}
+
+#icon {
+    line-height: 50px;
+}
+
+#icon {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#title2{
+    text-align: center;
+    padding-top: 7rem;
+    color: blue;
+}
