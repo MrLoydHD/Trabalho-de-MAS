@@ -1,4 +1,5 @@
-﻿const gymList = document.getElementById('gymList');
+﻿/*
+const gymList = document.getElementById('gymList');
 const searchBar = document.getElementById('search');
 let gymCharacters = [];
 
@@ -46,3 +47,4 @@ loadGym();
 $(#id).click(alert){
     alr
 }
+*/

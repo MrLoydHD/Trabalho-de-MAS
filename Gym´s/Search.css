@@ -47,12 +47,12 @@
     }
 
         .search-body .search-filters .filter-list .title {
-            color: #3c4142;
+            color: black;
             margin-bottom: 1rem;
         }
 
         .search-body .search-filters .filter-list .filter-text {
-            color: #727686;
+            color: black;
         }
 
     .search-body .search-result .result-header {
@@ -60,7 +60,7 @@
     }
 
         .search-body .search-result .result-header .records {
-            color: #3c4142;
+            color: black;
         }
 
         .search-body .search-result .result-header .result-actions {
@@ -85,7 +85,7 @@
                 }
 
                     .search-body .search-result .result-header .result-actions .result-sorting select option {
-                        color: #3c4142;
+                        color: black;
                     }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
