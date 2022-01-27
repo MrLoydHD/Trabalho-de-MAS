@@ -6,21 +6,12 @@ body {
 }
 
 .row {
-<<<<<<< HEAD
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     margin: 0 -16px;
   }
-=======
- 
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
->>>>>>> e0547a2f115d18f7a783a70631045c225f8b10ef
 
   .col-25 {
     -ms-flex: 25%; /* IE10 */
