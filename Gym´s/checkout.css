@@ -35,19 +35,11 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-  }
-=======
   background-color: #f2f2f2;
   padding: 5px  15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
->>>>>>> e0547a2f115d18f7a783a70631045c225f8b10ef
 
 input[type=text] {
   width: 100%;
