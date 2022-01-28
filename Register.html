@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/Login.css">
+    <link href='https://fonts.googleapis.com/css?family=Chela One' rel='stylesheet'>
 </head>
 <style>
     .hover:hover{
         color:white;
     }
-    
 </style>
 
 <body>
-    <section class="h-100 gradient-form" style="background-color: #eee;">
-        <div class="container py-5 h-100">
+    <section style="background-color: #eee;">
+        <div class="container-fluid py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-xl-10">
                     <div class="card rounded-3 text-black">
@@ -32,40 +32,45 @@
 
                                     <div class="text-center">
                                         <img src="./Images/Logo Azul escuro e beje/logo_transparent.png" style="width: 185px;" alt="logo">
-                                        <h4 class="mt-1 mb-5 pb-1">We are GymFlux</h4>
+                                        <h4 class="mt-1 mb-5 pb-1" style=" font-family: 'Chela One';font-size: 40px; color:rgb(46, 146, 240);">We are GymFlux</h4>
                                     </div>
 
                                     <form>
-                                        <p>Please login to your account</p>
+                                        <p>Create Account</p>
 
                                         <div class="form-floating mb-4">
-                                            <input type="email" id="floatingInput" class="form-control" placeholder="Phone number or email address" style="height: auto;" />
-                                            <label for="floatingInput">Username</label>
+                                            <input type="text" id="floatingInput1" class="form-control" placeholder="Phone number or email address" style="height: auto;" />
+                                            <label for="floatingInput1">Name</label>
                                         </div>
-
+                                        <div class="form-floating mb-4">
+                                            <input type="text" id="floatingInput3" class="form-control" placeholder="Phone number or email address" style="height: auto;" />
+                                            <label for="floatingInput3">UserName</label>
+                                        </div>
+                                        <div class="form-floating mb-4">
+                                            <input type="email" id="floatingInput4" class="form-control" placeholder="Phone number or email address" style="height: auto;" />
+                                            <label for="floatingInput4">Email</label>
+                                        </div>
                                         <div class="form-floating mb-4">
                                             <input type="password" id="floatingInput2" class="form-control" placeholder="Password" style="height: auto;" />
                                             <label for="floatingInput2">Password</label>
                                         </div>
-
-                                        <div class="text-center pt-1 mb-1 pb-1">
-                                            <a href="index.html" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3 esticao" type="button">Log in</a>
+                                        <div style="text-transform: uppercase" class="text-center mb-2"> By registering you Agree to the <span class="text-muted" style=" text-decoration: underline; font-weight:bold">terms of service</span></div>
+                                        <div class=" text-center pt-1 pb-1">
+                                            <a href="index.html" class="btn btn-outline-info btn-lg hover fa-lg mb-3 esticao1" type="button">Register</a>
+                                            <a class="btn btn-primary" style="background-color: #3b5998; width: 41px; " href="#! " role="button "><i class="fa fa-facebook-f "></i></a>
+                                            <a class="btn btn-primary" style="background-color: lightcyan;color:black; width: 41px; " href="#! " role="button "><i class="fa fa-google"></i></a>
                                         </div>
-                                        <div class="text-center mb-5 pb-1">
-                                            <a class="text-muted" href="#!">Forgot password?</a>
-                                        </div>
-
+                                        <div class="text-center mb-2" style="text-transform: uppercase;">Already have an account?</div>
                                         <div class="d-flex align-items-center justify-content-center pb-4">
-                                            <p class="mb-0 me-2">Don't have an account?</p>
-                                            <button type="button" class="btn  hover btn-outline-info">Create new</button>
+                                            <button type="button" class="btn btn-lg  hover btn-outline-info">Login</button>
                                         </div>
 
                                     </form>
 
                                 </div>
                             </div>
-                            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-                                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                            <div class="col-lg-6 d-flex align-items-center gradient-custom-2 container">
+                                <div class="text-white px-3 py-4 p-md-5 mx-md-4 border aoki border-light">
                                     <h4 class="mb-4">We are more than just a company</h4>
                                     <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                         consequat.
