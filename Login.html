@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/Login.css">
+    <link href='https://fonts.googleapis.com/css?family=Chela One' rel='stylesheet'>
 </head>
 <style>
     .hover:hover{
@@ -32,7 +33,7 @@
 
                                     <div class="text-center">
                                         <img src="./Images/Logo Azul escuro e beje/logo_transparent.png" style="width: 185px;" alt="logo">
-                                        <h4 class="mt-1 mb-5 pb-1">We are GymFlux</h4>
+                                        <h4 class="mt-1 mb-5 pb-1" style="font-family: 'Chela One'; font-size: 40px; color:rgb(46, 146, 240);">We are GymFlux</h4>
                                     </div>
 
                                     <form>
@@ -47,29 +48,50 @@
                                             <input type="password" id="floatingInput2" class="form-control" placeholder="Password" style="height: auto;" />
                                             <label for="floatingInput2">Password</label>
                                         </div>
-
+                                        <div class="form-floating mb-4">
+                                            <input type="email" id="floatingInput" class="form-control" placeholder="Phone number or email address" style="height: auto;" />
+                                            <label for="floatingInput">Username</label>
+                                        </div>
+                                        <div class="mb-2" >
+                                            <select class="form-select" style="height: 50px;" id="subject">
+                                                <option value="" disabled selected>Select your option</option>
+                                                <option value="1">Personal Use</option>
+                                                <option value="2">Professional Use</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                             Remember Me
+                                            </label>
+                                          </div>
                                         <div class="text-center pt-1 mb-1 pb-1">
                                             <a href="index.html" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3 esticao" type="button">Log in</a>
                                         </div>
-                                        <div class="text-center mb-5 pb-1">
+                                        <div class="text-start  mb-2 pb-1">
                                             <a class="text-muted" href="#!">Forgot password?</a>
                                         </div>
-
+                                        <div class=" text-center mb-5 pt-1 pb-1">
+                                            <div style="text-transform: uppercase" class="text-center mb-2"> Or Sign in with</div>
+                                            <a class="btn btn-primary" style="background-color: #3b5998; width: 41px; " href="#! " role="button "><i class="fa fa-facebook-f "></i></a>
+                                            <a class="btn btn-primary" style="background-color: lightcyan;color:black; width: 41px; " href="#! " role="button "><i class="fa fa-google"></i></a>
+                                        </div>
                                         <div class="d-flex align-items-center justify-content-center pb-4">
                                             <p class="mb-0 me-2">Don't have an account?</p>
                                             <button type="button" class="btn  hover btn-outline-info">Create new</button>
                                         </div>
+                                        
 
                                     </form>
 
                                 </div>
                             </div>
                             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-                                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                                    <h4 class="mb-4">We are more than just a company</h4>
-                                    <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </p>
+                                <div class="text-white text-center px-3 py-4 p-md-5 mx-md-4 border border-light">
+                                    <div class="mb-4" style="font-family: 'Chela One'; font-weight: 50px; "><h2>We are more than just a company</h2></div>
+                                    <div class="mb-5"><h4>We are the start of the journey of your life: the journey for greatness. With us, you'll find the tools to help you kick off your path to the best shape of your life. Join the community of amazing people who are fighting for their fitness goals.  
+
+                                        optional quote: </h4></div>
                                 </div>
                             </div>
                         </div>
