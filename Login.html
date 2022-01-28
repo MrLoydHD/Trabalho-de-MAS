@@ -46,12 +46,6 @@
                                             <input type="password" id="floatingInput2" class="form-control" placeholder="Password" style="height: auto;" />
                                             <label for="floatingInput2">Password</label>
                                         </div>
-
-                                        <div class="form-floating mb-4 d-none">
-                                            <input type="email" id="profcode" class="form-control height: auto;" />
-                                            <label for="floatingInput">Professional Code</label>
-                                        </div>
-
                                         <div class="mb-2" >
                                             <select class="form-select" style="height: 50px;" id = "selectmode">
                                                 <option value="" disabled selected>Select your option</option>
@@ -67,7 +61,7 @@
                                             </label>
                                           </div>
                                         <div class="text-center pt-1 mb-1 pb-1">
-                                            <a href="index.html" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3 esticao" type="button">Log in</a>
+                                            <a  class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3 esticao" id = "buttongoon" type="button">Log in</a>
                                         </div>
                                         <div class="text-start  mb-2 pb-1">
                                             <a class="text-muted" href="#!">Forgot password?</a>
@@ -106,10 +100,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js " integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin=" anonymous "></script>~
     <script>
-        console.log("ola")
-        $("#selectmode").click(function(){
+      $("#buttongoon").click(function(){
+      var selected = $('#selectmode option:selected').val();
+      console.log(selected)
+      if (selected == 1) {
+         $("#buttongoon").attr("href", "index.html")
+      }
+      if (selected == 2){
+        $("#buttongoon").attr("href", "Dashboard PT/PáginaPT.html")
         $("#profcode").removeClass("d-none")
-        $("#profcode").addClass("d-block")
+        $("profcode").addClass("d-block")
+      }
     })
     </script>
 </body>
