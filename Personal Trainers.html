@@ -14,8 +14,59 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./CSS/Search.css">
     <link rel="stylesheet" href="./CSS/Personal Trainers.css">
-</head>
-<body>
+    <style>
+        .form-white.input-group>.form-control:focus {
+      border-color: #fff;
+      box-shadow: inset 0 0 0 1px #fff;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link:focus {
+      color: rgba(255, 255, 255, 0.75);
+    }
+    </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <strong>GymFlux</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Gym´s/GymIndex.html">Find a Gym</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Personal Trainers.html">Find a Trainer</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav d-flex flex-row ms-auto me-3">
+              <li class="nav-item me-3 me-lg-0 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="./Images/GymFlux Images/pexels-photo-220453.jpg" class="rounded-circle" height="22"
+                    alt="" loading="lazy" />
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="areapessoal/areapessoal.html">Área Pessoal</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <!--Search-->
     <div class="container py-5">
         <div class="row text-center text-white">
@@ -53,6 +104,7 @@
         <div class="container">
             <div class="row text-center">
                 <!-- Team item -->
+                
                 <div class="col-xl-3 col-sm-6 mb-5 filter1 pontu4 pricebiggerthan50 weightloss senior person ">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./Images/GymFlux Images/pexels-photo-2379004.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                             <h5 class="mb-0">Gustavo Almarias</h5>
@@ -66,9 +118,11 @@
                         </ul>
                     </div>
                 </div>
+           
                 <!-- End -->
 
                 <!-- Team item -->
+                
                 <div class="col-xl-3 col-sm-6 mb-5 filter2 pontu4 pricelowerthan50 bodybuilding saudeenutriçao person ">
                     <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./Images/GymFlux Images/pexels-photo-614810.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                         <h5 class="mb-0">Thomas Shelby</h5><span class="small text-uppercase text-muted">Personal Trainer</span>
