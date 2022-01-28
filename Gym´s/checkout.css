@@ -93,86 +93,103 @@ span.price {
 
 /* Define vars we'll be using*/
 /* Circle loader with checkmark completed state */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+.modal-confirm {
+  color: #636363;
+  width: 325px;
+  font-size: 14px;
 }
-html,body{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  background: #000;
+
+.modal-confirm .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
 }
-label{
+
+.modal-confirm .modal-header {
+  border-bottom: none;
   position: relative;
-  height: 125px;
-  width: 125px;
-  display: inline-block;
-  border: 2px solid rgba(255,255,255,0.2);
-  border-radius: 50%;
-  border-left-color: #5cb85c;
-  animation: rotate 1.2s linear infinite;
 }
-@keyframes rotate {
-  50%{
-    border-left-color: #9b59b6;
-  }
-  75%{
-    border-left-color: #e67e22;
-  }
-  100%{
-    transform: rotate(360deg);
-  }
+
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -15px;
 }
-label .check-icon{
-  display: none;
+
+.modal-confirm .form-control,
+.modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px;
 }
-label .check-icon:after{
+
+.modal-confirm .close {
   position: absolute;
-  content: "";
-  top: 50%;
-  left: 28px;
-  transform: scaleX(-1) rotate(135deg);
-  height: 56px;
-  width: 28px;
-  border-top: 4px solid #5cb85c;
-  border-right: 4px solid #5cb85c;
-  transform-origin: left top;
-  animation: check-icon 0.8s ease;
+  top: -5px;
+  right: -5px;
 }
-@keyframes check-icon {
-  0%{
-    height: 0;
-    width: 0;
-    opacity: 1;
-  }
-  20%{
-    height: 0;
-    width: 28px;
-    opacity: 1;
-  }
-  40%{
-    height: 56px;
-    width: 28px;
-    opacity: 1;
-  }
-  100%{
-    height: 56px;
-    width: 28px;
-    opacity: 1;
-  }
+
+.modal-confirm .modal-footer {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
 }
-input{
-  display: none; 
+
+.modal-confirm .icon-box {
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -70px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background:  #04AA6D;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
-input:checked ~ label .check-icon{
-  display: block;
+
+.modal-confirm .icon-box i {
+  font-size: 58px;
+  position: relative;
+  top: 3px;
 }
-input:checked ~ label{
-  animation: none;
-  border-color: #5cb85c;
-  transition: border 0.5s ease-out;
+
+.modal-confirm.modal-dialog {
+  margin-top: 80px;
 }
+
+.modal-confirm .btn {
+  color: #fff;
+  border-radius: 4px;
+  background:  #04AA6D;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+}
+
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+  background:  #04AA6D;
+  outline: none;
+}
+
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
